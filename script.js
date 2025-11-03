@@ -21,3 +21,13 @@ switch(4){
 for(let i = 0; i<5; i++){
     console.log("Ankit")
 }
+
+for (let i = 11; i < 16; i++){
+    console.log(i)
+}
+
+console.log("Break")
+
+for (let i = 30; i > 9; i--){
+    console.log(i)
+}
