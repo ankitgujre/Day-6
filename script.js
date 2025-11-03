@@ -11,3 +11,13 @@ switch(4){
     default:
         console.log("Deagault case")            
 }
+
+/**---------------------Loops-------------------------- */
+
+// for(start; end; chang){
+
+// }
+
+for(let i = 0; i<5; i++){
+    console.log("Ankit")
+}
