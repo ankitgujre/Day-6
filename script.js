@@ -62,10 +62,25 @@ switch(4){
     
 // }
 
-for(let i = 1; i <= 20; i++){
-    if(i%2===0){
-        console.log(`${i} = even`)
+// for(let i = 1; i <= 20; i++){
+//     if(i%2===0){
+//         console.log(`${i} = even`)
+//     }else{
+//         console.log(`${i} = odd`)
+//     }
+// }
+
+
+// three types of number input
+
+// let n = Number(prompt("Enter number"))
+let n = (prompt("Enter number"))
+// let n = +prompt("Enter number")
+for (let index = 1; index < n; index++){
+    if (n > 0) {
+        console.log("Positive")
     }else{
-        console.log(`${i} = odd`)
+        console.log("Negative")
     }
+ 
 }
