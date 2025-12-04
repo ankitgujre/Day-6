@@ -74,13 +74,21 @@ switch(4){
 // three types of number input
 
 // let n = Number(prompt("Enter number"))
-let n = (prompt("Enter number"))
+// let n = parseInt(prompt("Enter number"))
 // let n = +prompt("Enter number")
-for (let index = 1; index < n; index++){
+/*for (let index = 1; index < n; index++){
     if (n > 0) {
         console.log("Positive")
     }else{
         console.log("Negative")
     }
  
+}*/
+
+/**-----Ask User for a number and say if positive or negative--- */
+let num = +prompt("enter number")
+if(num >= 0){
+    console.log("Positive")
+}else{
+    console.log("negative")
 }
